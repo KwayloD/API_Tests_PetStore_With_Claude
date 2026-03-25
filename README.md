@@ -195,12 +195,9 @@ log_cli_level = INFO
 [POSITIVE] test_get_user_by_username
 Path: tests/users/test_users_positive.py::TestUsersPositive::test_get_user_by_username
 =================================================================
-  REQUEST:  POST https://petstore.swagger.io/v2/user
-  STATUS:   200
-  RESPONSE: {'code': 200, 'type': 'unknown', 'message': '3610'}
-  REQUEST:  GET https://petstore.swagger.io/v2/user/john63271
-  STATUS:   200
-  RESPONSE: {'id': 3610, 'username': 'john63271', ...}
+REQUEST:  POST https://petstore.swagger.io/v2/user
+STATUS:   200
+RESPONSE: {'code': 200, 'type': 'unknown', 'message': '3610'}
 RESULT: PASSED
 -----------------------------------------------------------------
 ```
